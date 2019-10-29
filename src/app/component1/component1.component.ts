@@ -7,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Component1Component implements OnInit {
   public data="";
-
+   public data1="";
   constructor() { }
 
   ngOnInit() {
+  }
+
+  show(vari) {
+    this.data1=vari;
+    console.log(this.data1);
   }
 
 }
